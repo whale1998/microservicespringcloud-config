@@ -1,0 +1,16 @@
+﻿spring: 
+  profiles: 
+  active: 
+  - dev 
+---
+spring: 
+  profiles: dev 
+  application: 
+    name: microservicecloud-config-whale-dev 
+---
+spring 
+  profiles: test 
+  application: 
+    name: microservicecloud-config-whale-test
+
+#一定要保存为UTF-8格式
